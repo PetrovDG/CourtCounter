@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="team_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/teamTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/team_text_size</item>
+    </style>
+
+
+    <style name="text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+</resources>

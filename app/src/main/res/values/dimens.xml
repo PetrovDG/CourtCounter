@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="zero_margin">0dp</dimen>
+    <dimen name="one_margin">1dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="marginBottom">8dp</dimen>
+    <dimen name="marginTop">16dp</dimen>
+    <dimen name="marginLeftRes">22dp</dimen>
+    <dimen name="marginRightRes">22dp</dimen>
+    <dimen name="marginLeft">24dp</dimen>
+    <dimen name="marginRight">24dp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="paddingBottom">24dp</dimen>
+    <dimen name="team_text_size">16sp</dimen>
+    <dimen name="chronometer_text">20sp</dimen>
+    <dimen name="text_size">56sp</dimen>
+
+</resources>

@@ -1,0 +1,120 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#FF9800</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#ffcc00</item>
+    </style>
+
+    <style name="scroll_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_above">@+id/footerView</item>
+        <item name="android:layout_below">@+id/headerView</item>
+    </style>
+
+    <style name="relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="linear_layout_header">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="linear_layout_footer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+
+    <style name="linear_layout_horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="linear_layout">
+        <item name="android:layout_width">@dimen/zero_margin</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="chronometer_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+        <item name="android:textSize">@dimen/chronometer_text</item>
+    </style>
+
+    <style name="vertical_line">
+        <item name="android:layout_width">@dimen/one_margin</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="team_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/teamTextColor</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/team_text_size</item>
+    </style>
+
+    <style name="text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">@dimen/paddingBottom</item>
+        <item name="android:textColor">@color/textColor</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+    <style name="button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/marginRight</item>
+    </style>
+
+    <style name="buttonReset">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom</item>
+    </style>
+
+    <style name="buttonStart">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom</item>
+        <item name="android:textColor">@color/startBn</item>
+    </style>
+
+    <style name="buttonStop">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginBottom">@dimen/marginBottom</item>
+        <item name="android:textColor">@color/stopBn</item>
+    </style>
+
+</resources>

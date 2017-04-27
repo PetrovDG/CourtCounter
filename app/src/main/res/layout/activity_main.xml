@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/relative_layout">
+
+    <LinearLayout
+        android:id="@+id/headerView"
+        style="@style/linear_layout_header">
+
+        <TextView
+            android:id="@+id/time"
+            style="@style/chronometer_view"
+            android:text="@string/time" />
+
+        <Chronometer
+            android:id="@+id/simpleChronometer"
+            style="@style/chronometer_view" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollableContent"
+        style="@style/scroll_view">
+
+        <RelativeLayout style="@style/relative_layout">
+
+            <LinearLayout style="@style/linear_layout_horizontal">
+
+                <LinearLayout
+                    style="@style/linear_layout"
+                    tools:context=".MainActivity">
+
+                    <TextView
+                        style="@style/team_text_view"
+                        android:text="@string/Team_A" />
+
+                    <TextView
+                        android:id="@+id/team_a_score"
+                        style="@style/text_view"
+                        android:text="@string/team_score" />
+
+                    <Button
+                        style="@style/button"
+                        android:onClick="addThreeForTeamA"
+                        android:text="@string/points_3" />
+
+                    <Button
+                        style="@style/button"
+                        android:onClick="addTwoForTeamA"
+                        android:text="@string/points_2" />
+
+                    <Button
+                        style="@style/button"
+                        android:onClick="addOneForTeamA"
+                        android:text="@string/free_throw" />
+                </LinearLayout>
+
+                <View style="@style/vertical_line" />
+
+                <LinearLayout
+                    style="@style/linear_layout"
+                    tools:context=".MainActivity">
+
+                    <TextView
+                        style="@style/team_text_view"
+                        android:text="@string/Team_B" />
+
+                    <TextView
+                        android:id="@+id/team_b_score"
+                        style="@style/text_view"
+                        android:text="@string/team_score" />
+
+                    <Button
+                        style="@style/button"
+                        android:onClick="addThreeForTeamB"
+                        android:text="@string/points_3" />
+
+                    <Button
+                        style="@style/button"
+                        android:onClick="addTwoForTeamB"
+                        android:text="@string/points_2" />
+
+                    <Button
+                        style="@style/button"
+                        android:onClick="addOneForTeamB"
+                        android:text="@string/free_throw" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/footerView"
+        style="@style/linear_layout_footer">
+
+        <Button
+            android:id="@+id/start"
+            style="@style/buttonStart"
+            android:onClick="startChronometer"
+            android:text="@string/start_bn" />
+
+        <Button
+            android:id="@+id/reset"
+            style="@style/buttonReset"
+            android:onClick="resetScore"
+            android:text="@string/reset_bn" />
+
+        <Button
+            android:id="@+id/stop"
+            style="@style/buttonStop"
+            android:onClick="stopChronometer"
+            android:text="@string/pause_bn" />
+
+    </LinearLayout>
+
+</RelativeLayout>
